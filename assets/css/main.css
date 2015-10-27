@@ -1720,7 +1720,7 @@
 		.button:hover {
 			background: #fff;
 			color: #5F704D;
-			border-color: #5F704D;
+			border-color: #000;
 		}
 
 		input[type="button"].style2,
@@ -2004,6 +2004,7 @@
 	#venue-title {
 		font-size: 95%;
 		margin-bottom: 0.5em;
+		letter-spacing: 3px;
 	}
 
 	#first p,
