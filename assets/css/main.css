@@ -1311,9 +1311,8 @@
 
 	body {
 		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
+		background-image: url("../../images/texture-bg.png");
+		background-repeat: repeat;
 		background-position: top left, center 0;
 		background-attachment: fixed, fixed;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -1387,10 +1386,9 @@
 		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		color: #35b88f;
+		color: #5F704D;
 		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
 		text-decoration: none;
-		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
 	}
 
 		a:hover {
@@ -1697,7 +1695,7 @@
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
+		background: #5F704D;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -1927,7 +1925,7 @@
 
 	#header {
 		position: relative;
-		color: #fff;
+		color: #5F704D;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 0;
@@ -1947,8 +1945,8 @@
 			}
 
 			#header header p {
-				border-top: solid 1px rgba(255, 255, 255, 0.5);
-				color: rgba(255, 255, 255, 0.75);
+				border-top: solid 1px #fff;
+				color: #5F704D;
 				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
 				font-size: 1em;
 				text-transform: uppercase;
@@ -1960,7 +1958,7 @@
 				#header header p:before {
 					content: '';
 					display: block;
-					border-top: solid 1px rgba(255, 255, 255, 0.5);
+					border-top: solid 1px #fff;
 					margin: 4px 0 0.8em 0;
 				}
 
@@ -1996,13 +1994,55 @@
 
 /* Banner */
 
+	#venue-title {
+		font-size: 95%;
+		margin-bottom: 0.5em;
+	}
+
+	#first p,
+	#second p {
+		margin-bottom: 0;
+	}
+
+	address {
+		line-height: 1.5em;
+	}
+
+	#first header,
+	#second header {
+		margin-bottom: 2em;
+	}
+
+	.icon-link {
+		font-size: 75%;
+		color: #3a3939;
+	}
+
+	.icon-link a {
+		color: #3a3939;
+	}
+
+	.icon-bed {
+		font-size: 150%;
+		margin-left: 0.25em;
+		vertical-align: middle;
+		color: #3a3939;
+	}
+
+	.icon-map {
+		font-size: 125%;
+		margin-left: 0.25em;
+		vertical-align: middle;
+		color: #3a3939;
+	}
+
 	#banner {
 		position: relative;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
-		padding: 5em 0 5em 0;
+		background: #5F704D;
+		padding: 3em 0 3em 0;
 		margin: 0;
 		background-size: 125% auto;
 	}
