@@ -1928,6 +1928,28 @@
 			display: none;
 		}
 
+/* Nav */
+
+nav {
+	text-align: center;
+}
+
+.navigation-menu {
+}
+
+.navigation-menu li {
+	display: inline;
+	text-transform: uppercase;
+	padding-left: 3%;
+	padding-right: 3%;
+	color: #5F704D;
+}
+
+.navigation-menu li a {
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
 /* Header */
 
 	#header {
@@ -2090,6 +2112,12 @@
 			#banner a:hover {
 				border-bottom-color: rgba(255, 255, 255, 0);
 			}
+
+	#schedule,
+	#venue,
+	#registry {
+		
+	}
 
 /* Footer */
 
