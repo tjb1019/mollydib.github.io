@@ -2045,16 +2045,21 @@ nav {
 
 	.icon-link {
 		font-size: 75%;
-		color: #3a3939;
+		color: #7D5CF2;
 	}
 
 	.icon-link a {
-		color: #3a3939;
+		color: #7D5CF2;
+		font-style: italic;
+	}
+
+	.icon-link i {
+		color: #7D5CF2;
 	}
 
 	.icon-bed {
 		font-size: 150%;
-		margin-left: 0.25em;
+		margin-right: 0.25em;
 		vertical-align: middle;
 		color: #3a3939;
 	}
@@ -2076,9 +2081,10 @@ nav {
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		background: #5F704D;
-		padding: 3em 0 3em 0;
+		padding: 1em 0 3em 0;
 		margin: 0;
 		background-size: 125% auto;
+		min-height: 50vh;
 	}
 
 		#banner .button {
@@ -2087,7 +2093,7 @@ nav {
 		}
 
 		#banner header {
-			margin: 0 0 2em 0;
+			margin: 0 0 0.5rem 0;
 		}
 
 			#banner header h2 {
@@ -2119,6 +2125,29 @@ nav {
 		
 	}
 
+.custom-column {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.schedule-date {
+	padding-bottom: 1rem;
+	font-family: 'Niconne', cursive;
+	font-size: 150%;
+}
+
+#reception {
+	font-style: italic;
+	font-size: 50%;
+}
+
+#transportation {
+	font-size: 50%;
+	font-style: italic;
+	line-height: 50%;
+	padding-top: 2%;
+}
 /* Footer */
 
 	#footer {
